@@ -13,7 +13,7 @@ git clone https://github.com/barthlab/Sensory-association-training-behavior.git
 ```
 
 ## Usage
-Change the MATLAB current folder to the folder containing `Sensory-association-training-behavior/codes` 
+Change the MATLAB current folder to the folder containing `Sensory-association-training-behavior-master/codes` 
 
 ### Step I
 Download .txt data file from the server, i.e. chicago.wv.cc.cmu.edu/sd
@@ -23,7 +23,7 @@ Download .txt data file from the server, i.e. chicago.wv.cc.cmu.edu/sd
 
 ### Step II
 *Run the code*
-2.1.	Open Sensory-association-training-behavior/codes/SAT_analysis.m with a computer that has MATLAB programming installed. 
+2.1.	Open `Sensory-association-training-behavior-master/codes/SAT_analysis.m` with a computer that has MATLAB programming installed. 
 2.2.	Under Editor, click Run.
 ![step2](demo/step2.png)
 
