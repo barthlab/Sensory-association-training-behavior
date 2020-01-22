@@ -17,18 +17,23 @@ Change the MATLAB current folder to the folder containing `Sensory-association-t
 
 ### Step I
 Download .txt data file from the server, i.e. chicago.wv.cc.cmu.edu/sd
-1. Locate the files you hope to analyze, i.e. temptest.txt12_04_18~T~13_48_04.txt
-2. Right click, save link as, and add whatever prefix you want. (DO NOT add underscore (“_”) in the name as the code uses them to find the start date and time) An example would be something like FPO4 merged Ctrl48 temptest.txt12_03_18_T_11_59_38
-![Mouse Action Cluster Demo 1x](demo/2x2grid.gif)
+1.1. Locate the files you hope to analyze, i.e. temptest.txt12_04_18~T~13_48_04.txt
+1.2. Right click, save link as, and add whatever prefix you want. (DO NOT add underscore (“_”) in the name as the code uses them to find the start date and time) An example would be something like FPO4 merged Ctrl48 temptest.txt12_03_18_T_11_59_38
+![step1](demo/step1.png)
 
 ### Step II
-### Run the code
-1.	Open Sensory-association-training-behavior/codes/SAT_analysis.m with a computer that has MATLAB programming installed. 
-2.	Under Editor, click Run.
-![Mouse Action Cluster Demo 1x](demo/2x2grid.gif)
+*Run the code*
+2.1.	Open Sensory-association-training-behavior/codes/SAT_analysis.m with a computer that has MATLAB programming installed. 
+2.2.	Under Editor, click Run.
+![step2](demo/step2.png)
 
-## Outputs
-There will be the listed files upon running this script.
+### Step III
+3.1.	Once you click run, the program will open up a prompt for you to select the folder of which contains the data .txt file you stored. If there are multiple .txt files, it will automatically merge them.
+3.2.	Once you have selected the folder of which contains the .txt data file, the script will show do a quick sanity check for the time-stamp, and open another prompt where you desire to store the excel files that contained all the analyses.
+![step3](demo/step3.png)
+
+### Step IV
+4.1.	Once the script finishes, your output folder will contain the following files. 
 
 #### (1)FILE WITH ORIGINAL NAME - Excel file contents include day-wise and type-wise raw data split across sheets; 
 #### (2)FILE WITH ORIGINAL NAME_AnalysisFinal- Excel file contents include colored rows showing day-wise and time bin-wise split licking and trial data in one sheet; 
@@ -37,6 +42,8 @@ There will be the listed files upon running this script.
 #### (5) FILE WIHT ORIGINAL NAME_Last20Data - Excel file containing sheets carrying information about raw and processed lick data for the last 20% of trials split day-wise; 
 #### (6) FILE WITH ORIGINAL NAME_Plots - Matlab figure file showing the plots of lick frequence, trial and performance as three separate plots in one figure.
 
+An example image of 3 of the listed files in the output folder
+![step4](demo/step4.png)
 
 
 ## Contributing
