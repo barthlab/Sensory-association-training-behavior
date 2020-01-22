@@ -11,6 +11,22 @@ Change your current working directory to the location where you want the cloned 
 ```bash
 git clone https://github.com/barthlab/Sensory-association-training-behavior.git
 ```
+
+## Usage
+Change the MATLAB current folder to the folder containing `Sensory-association-training-behavior/codes` 
+
+### Step I
+Download .txt data file from the server, i.e. chicago.wv.cc.cmu.edu/sd
+1. Locate the files you hope to analyze, i.e. temptest.txt12_04_18~T~13_48_04.txt
+2. Right click, save link as, and add whatever prefix you want. (DO NOT add underscore (“_”) in the name as the code uses them to find the start date and time) An example would be something like FPO4 merged Ctrl48 temptest.txt12_03_18_T_11_59_38
+![Mouse Action Cluster Demo 1x](demo/2x2grid.gif)
+
+### Step II
+### Run the code
+1.	Open Sensory-association-training-behavior/codes/SAT_analysis.m with a computer that has MATLAB programming installed. 
+2.	Under Editor, click Run.
+![Mouse Action Cluster Demo 1x](demo/2x2grid.gif)
+
 ## Outputs
 There will be the listed files upon running this script.
 
@@ -20,6 +36,7 @@ There will be the listed files upon running this script.
 #### (4) FILE WITH ORIGINAL NAME_ForPlotting - Excel file containing arranged data for directly pasting into original graph template files for plotting; 
 #### (5) FILE WIHT ORIGINAL NAME_Last20Data - Excel file containing sheets carrying information about raw and processed lick data for the last 20% of trials split day-wise; 
 #### (6) FILE WITH ORIGINAL NAME_Plots - Matlab figure file showing the plots of lick frequence, trial and performance as three separate plots in one figure.
+
 
 
 ## Contributing
