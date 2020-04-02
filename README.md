@@ -17,7 +17,7 @@ Change the MATLAB current folder to the folder containing `Sensory-association-t
 
 ### Step I
 Download .txt data file from the server, i.e. chicago.wv.cc.cmu.edu/sd
-1.1. Locate the files you hope to analyze, i.e. temptest.txt12_04_18~T~13_48_04.txt
+1.1. Locate the files you hope to analyze, i.e. temptest.txt12_04_18_T_13_48_04.txt
 1.2. Right click, save link as, and add whatever prefix you want. (DO NOT add underscore (“_”) in the name as the code uses them to find the start date and time) An example would be something like FPO4 merged Ctrl48 temptest.txt12_03_18_T_11_59_38
 ![step1](demo/step1.png)
 
@@ -29,7 +29,7 @@ Download .txt data file from the server, i.e. chicago.wv.cc.cmu.edu/sd
 
 ### Step III
 3.1.	Once you click run, the program will open up a prompt for you to select the folder of which contains the data .txt file you stored. If there are multiple .txt files, it will automatically merge them.
-3.2.	Once you have selected the folder of which contains the .txt data file, the script will show do a quick sanity check for the time-stamp, and open another prompt where you desire to store the excel files that contained all the analyses.
+3.2.	Once you have selected the folder of which contains the .txt data file, the script will verify the format, and open another prompt where you desire to store the excel files that contained all the analyses.
 ![step3](demo/step3.png)
 
 ### Step IV
@@ -54,8 +54,8 @@ We are a neuroscience lab and welcome all contributions to improve this algorith
 
 ## License
 
-This software package provided without warranty of any kind and is licensed under the GNU Lesser General Public License v3.0. 
-If you use our algorithm and/or model/data, please cite us! Preprint/peer-review will be announced in the following section. (https://choosealicense.com/licenses/agpl-3.0/)
+This software package provided without warranty of any kind and is licensed under the GNU General Public License v3.0. 
+If you use our algorithm and/or model/data, please cite us! Preprint/peer-review will be announced in the following section. (https://choosealicense.com/licenses/gpl-3.0/)
 
 ## News
 
